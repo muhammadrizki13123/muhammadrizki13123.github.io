@@ -9,7 +9,7 @@ totalPesan = totalSlide;
 
 //////////////////////////////////////////////////
 
-  var sudahklik = true;loveIn.innerHTML = "<label class='lovein'><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g transform='translate(2.550170, 3.550158)'><path d='M0.371729633,8.89614246 C-0.701270367,5.54614246 0.553729633,1.38114246 4.07072963,0.249142462 C5.92072963,-0.347857538 8.20372963,0.150142462 9.50072963,1.93914246 C10.7237296,0.0841424625 13.0727296,-0.343857538 14.9207296,0.249142462 C18.4367296,1.38114246 19.6987296,5.54614246 18.6267296,8.89614246 C16.9567296,14.2061425 11.1297296,16.9721425 9.50072963,16.9721425 C7.87272963,16.9721425 2.09772963,14.2681425 0.371729633,8.89614246 Z'></path><path d='M13.23843,4.013842 C14.44543,4.137842 15.20043,5.094842 15.15543,6.435842'></path></g></svg></label>";
+  var sudahklik = true;loveIn.innerHTML = "<label class='lovein'><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='35' height='35'><g stroke='#ff0000' stroke-width='1.3' fill='none' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='8' width='18' height='12' rx='2' ry='2' fill='red'></rect><line x1='3' y1='12' x2='21' y2='12'></line><line x1='12' y1='8' x2='12' y2='20'></line><path d='M12 8C8 4 4 3 4 5C4 6.5 6 8 8 8C9 8 12 8 12 8Z' fill='pink'></path><path d='M12 8C16 4 20 3 20 5C20 6.5 18 8 16 8C15 8 12 8 12 8Z' fill='pink'></path></g></svg></label>";
   document.getElementById("loveIn").onclick = function() {
       if(sudahklik == true && fungsiAwal==0){
         loveIn.style="transition:all .5s ease;opacity:0";
@@ -19,7 +19,7 @@ totalPesan = totalSlide;
         fungsiAwal=1;setTimeout(initengahan,300);
       } else {
       	sudahklik = true;
-      	loveIn.innerHTML = "<label class='lovein'><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g transform='translate(2.550170, 3.550158)'><path d='M0.371729633,8.89614246 C-0.701270367,5.54614246 0.553729633,1.38114246 4.07072963,0.249142462 C5.92072963,-0.347857538 8.20372963,0.150142462 9.50072963,1.93914246 C10.7237296,0.0841424625 13.0727296,-0.343857538 14.9207296,0.249142462 C18.4367296,1.38114246 19.6987296,5.54614246 18.6267296,8.89614246 C16.9567296,14.2061425 11.1297296,16.9721425 9.50072963,16.9721425 C7.87272963,16.9721425 2.09772963,14.2681425 0.371729633,8.89614246 Z'></path><path d='M13.23843,4.013842 C14.44543,4.137842 15.20043,5.094842 15.15543,6.435842'></path></g></svg></label>";
+      	loveIn.innerHTML = "<label class='lovein'><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='35' height='35'><g stroke='#ff0000' stroke-width='1.3' fill='none' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='8' width='18' height='12' rx='2' ry='2' fill='red'></rect><line x1='3' y1='12' x2='21' y2='12'></line><line x1='12' y1='8' x2='12' y2='20'></line><path d='M12 8C8 4 4 3 4 5C4 6.5 6 8 8 8C9 8 12 8 12 8Z' fill='pink'></path><path d='M12 8C16 4 20 3 20 5C20 6.5 18 8 16 8C15 8 12 8 12 8Z' fill='pink'></path></g></svg></label>";
       }
     }
   
